@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 600px;
+  min-height: 520px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  border: 1px solid #E2E2E2;
+}
+.add-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 40px;
+  padding-left: 0px;
+  border-left-width: 10px;
+}
+.space {
+  margin-right: 10px;
+}
+
+.todo-list {
+  padding-left: 10px;
+  padding-right: 10px;
+}
